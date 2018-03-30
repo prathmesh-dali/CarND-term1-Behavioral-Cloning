@@ -90,7 +90,7 @@ Here is a visualization of the architecture
 
 To train my model I used dataset provided by Udacity. Some of the samples from original dataset are
 
-| | | |
+| Camera | Image 1 | Image 2 |
 | ---- | ---- | ---- |
 | **Center Camera Images** | ![alt text](/data/center1.jpg "Center Images") | ![alt text](/data/center2.jpg "Center Images") |
 | **Left Camera Images** | ![alt text](/data/left1.jpg "Left Images") | ![alt text](/data/left2.jpg "Left Images") |
@@ -105,6 +105,7 @@ To remove redundant details I cropped image's 80px from top and 20px from bottom
 | ![alt text](/data/cropped_center.png "Cropped Images") | ![alt text](/data/cropped_left.png "Cropped Images") | ![alt text](/data/cropped_right.png "Cropped Images") |
 
 To augment the data set, I flipped center camera images thinking that this would provide more number of samples to be trained. For example, here is an image that has then been flipped:
+
 | Cropped Center Camera Image | Cropped Flipped Center Camera Image |
 | ---- | ---- |
 | ![alt text](/data/cropped_center.png "Original Images") | ![alt text](/data/flipped_image.png "Flipped Images") |
