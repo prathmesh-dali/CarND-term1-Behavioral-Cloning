@@ -132,4 +132,4 @@ I used this training data for training the model. The validation set helped dete
 
 | Track 1 | Track 2 |
 | ---- | ---- |
-| [![alt text](/data/track1.jpg "Cropped Images")](record_track1.mp4) | [![alt text](/data/track2.jpg "Cropped Images")](record_track2.mp4) | 
+| [![alt text](/data/track1.jpg "Cropped Images")](https://youtu.be/2HwfRMzT5Mw) | [![alt text](/data/track2.jpg "Cropped Images")](https://youtu.be/TuCbodVgwyc) | 
