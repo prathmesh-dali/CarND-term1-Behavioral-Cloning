@@ -100,7 +100,7 @@ First of all I divided data into 80% training data and 20% validation data.
 
 To remove redundant details I cropped image's 80px from top and 20px from bottom for all the images that is center camera images, left camera images and right camera images (right and left camera images are added by adding respective steering angle offset), images after cropping are
 
-| Cropped Center Camera Image | Cropped Center Camera Image | Cropped Center Camera Image |
+| Cropped Center Camera Image | Cropped Left Camera Image | Cropped Right Camera Image |
 | ---- | ---- | ----|
 | ![alt text](/data/cropped_center.png "Cropped Images") | ![alt text](/data/cropped_left.png "Cropped Images") | ![alt text](/data/cropped_right.png "Cropped Images") |
 
@@ -112,13 +112,13 @@ To augment the data set, I flipped center camera images thinking that this would
 
 After cropping and flipping images I resized all the images to 32 X 32.
 
-| Resized Center Camera Image | Resized Center Camera Image | Resized Center Camera Image |
+| Resized Center Camera Image | Resized Left Camera Image | Resized Right Camera Image |
 | ---- | ---- | ----|
 | ![alt text](/data/center32.png "Cropped Images") | ![alt text](/data/left32.png "Cropped Images") | ![alt text](/data/right32.png "Cropped Images") |
 
 After cropping image I applied normalization on images and these normalized images are passed to the network as input
 
-| Resized Center Camera Image | Resized Center Camera Image | Resized Center Camera Image |
+| Normalized Center Camera Image | Normalized Left Camera Image | Normalized Right Camera Image |
 | ---- | ---- | ----|
 | ![alt text](/data/norm_center.png "Cropped Images") | ![alt text](/data/norm_left.png "Cropped Images") | ![alt text](/data/norm_right.png "Cropped Images") |
 
